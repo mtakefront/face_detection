@@ -119,23 +119,8 @@ model = YOLO("outputs/runs_yolo/face_recognition_two_classes/weights/best.pt")
 results = model.predict(source="test_set/ornek_foto.jpg", conf=0.6, iou=0.7, show=True, save=True)
 ```
 
-### Gerçek Zamanlı Kamera Akışı
 
-```python
-import cv2
-
-cap = cv2.VideoCapture(0)
-while True:
-    ret, frame = cap.read()
-    results = model.predict(source=frame, conf=0.6, iou=0.7)
-    # Kutuları çizdir...
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-cap.release()
-cv2.destroyAllWindows()
-```
-
-## 🛣️ Gelecek Çalışmalar
+##  Gelecek Çalışmalar
 
 - `non_mehmet` sınıfı için daha fazla ve dengeli veri toplanması
 - YOLOv8 dışında farklı modellerin test edilmesi
