@@ -19,7 +19,6 @@ Bu proje, bir stajyerin kendi yüzünü (Mehmet) diğer insan yüzlerinden ayır
 - **Ultralytics YOLOv8**: Model eğitimi ve tahmini
 - **PyTorch**: YOLO’nun arka plan framework’ü
 - **Roboflow**: Veri seti yönetimi ve etiketleme
-- **OpenCV (cv2)**: Kamera akışı ve görselleştirme
 
 ## 📂 Proje Yapısı
 
