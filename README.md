@@ -115,7 +115,7 @@ pip install ultralytics opencv-python
 
 ```python
 model = YOLO("outputs/runs_yolo/face_recognition_two_classes/weights/best.pt")
-results = model.predict(source="test_set/ornek_foto.jpg", conf=0.6, iou=0.7, show=True, save=True)
+results = model.predict(source="test_set/ornek_foto.jpg", conf=0.9, iou=0.7, show=True, save=True)
 ```
 
 
