@@ -108,7 +108,7 @@ model.train(
 ### Kurulum
 
 ```bash
-pip install ultralytics opencv-python
+pip install ultralytics 
 ```
 
 ### Görsel Üzerinde Tahmin
